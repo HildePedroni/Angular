@@ -1,0 +1,17 @@
+
+<div>
+  <div>
+   Tipo de treino: {{tipoTreino}}
+  </div>
+  <div *ngFor="let serie of series">
+      <serie repsSerie={{serie.repsSerie}} [exercicios]="serie.exercicios"></serie>
+  </div>
+  <div>
+    Total: {{metragemTotal}}
+  </div>  
+</div>
+ 
+
+    
+    
+
