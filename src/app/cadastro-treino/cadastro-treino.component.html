@@ -1,15 +1,13 @@
 <div class="container center-block" >
 <section  class="col-md-4">
   <div class="form-group">
-    <h2 class="text-center">Exercício</h2>
-    
+    <h2 class="text-center">Exercício</h2>    
     <div class="input-group">
       <input type="number" name="repeticoes" [(ngModel)]="exercicio.repeticoes" class="form-control" placeholder="Repetições">
-      <div class="input-group-addon">Vezes</div>
+      <div class="input-group-addon">X</div>
         <input type="number" class="form-control" [(ngModel)]="exercicio.metragem" placeholder="Metragem">
       <div class="input-group-addon">M</div>
     </div>
-    
     <div class="input-group">
       <input type="text" class="form-control" [(ngModel)]="exercicio.descritivo" placeholder="Braço c/Palmar">
     </div>
@@ -22,7 +20,7 @@
     <h2 class="text-center">Série</h2>
     <div class="input-group">
       <input type="number" name="repsSerie" [(ngModel)]="serie.repsSerie" class="form-control" placeholder="Repetir série">
-      <div class="input-group-addon">Vezes</div>
+      <div class="input-group-addon">X</div>
     </div>
     <serie></serie>
     <button  class="btn btn-primary" (click)="adicionaSerieNoTreino()">Adicionar no treino</button>

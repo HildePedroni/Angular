@@ -37,9 +37,9 @@ export class CadastroTreinoComponent {
   }
 
 
-  cadastraTreino(event) {
+  cadastrar(event) {
     event.preventDefault();
-
+    console.log("Tentando salvar o treino.");
     //TODO percorrer array de series montando o componente treino para ser enviado para o firebase
 
   }
